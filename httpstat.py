@@ -73,7 +73,7 @@ def make_color(code):
         tpl = '\x1b[{}m{}\x1b[0m'
         return tpl.format(code, s)
     return color_func
-
+# What?
 
 red = make_color(31)
 green = make_color(32)
