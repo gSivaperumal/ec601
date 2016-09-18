@@ -1,2 +1,3 @@
-# ec601
-homework 1
+This is a code which prints the http stat.
+
+
