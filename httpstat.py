@@ -197,10 +197,10 @@ def main():
     for loop, line in enumerate(headers.split('\n')):
         if loop == 0:
             p1, p2 = tuple(line.split('/'))
-            print(green(p1) + grayscale[14]('/') + red(p2))
+            print(green(p1) + grayscale[14]('/') + yellow(p2))
         else:
             pos = line.find(':')
-            print(grayscale[14](line[:pos + 1]) + red(line[pos + 1:]))
+            print(grayscale[14](line[:pos + 1]) + yellow(line[pos + 1:]))
 
     print()
 
